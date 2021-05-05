@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.timer {
+    // border: 1px solid red;
+}
+
+.projects {
+    // border: 1px solid orange;
+    width: 60%;
+}

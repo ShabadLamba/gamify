@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="timer">
+        <h4>GAMIFY COUNTER</h4>
+        <span id="seconds"> {{ hoursLeft }} </span>H
+        <span id="seconds"> {{ minutesLeft }} </span>M
+        <span id="seconds"> {{ secondsLeft }} </span>S
+    </div>
+    <div class="controls">
+        <button mat-raised-button color="primary" (click)="startTimer()">
+      Start Timer
+    </button>
+        <button mat-raised-button color="warn" (click)="pauseTimer()">Pause</button>
+        <button mat-raised-button color="accent" (click)="resetTimer()">
+      Reset
+    </button>
+    </div>
+</div>
